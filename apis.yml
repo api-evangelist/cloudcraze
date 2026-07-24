@@ -1,20 +1,48 @@
 aid: cloudcraze
 name: CloudCraze
-description: CloudCraze is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  CloudCraze was an enterprise B2B commerce platform built natively on the
+  Salesforce Platform, letting businesses launch online B2B storefronts fast and
+  scale them on top of Salesforce CRM data. Brands including Coca-Cola, Cummins,
+  Ecolab, Land O' Lakes, and WABCO ran global B2B commerce on it. Salesforce
+  acquired CloudCraze in 2018 and folded it into the Salesforce B2B Commerce
+  product line (now the legacy "B2B Commerce for Visualforce" managed package),
+  where its Apex/JavaScript developer surface continues to be documented on
+  Salesforce Developers. CloudCraze no longer operates as an independent company
+  or developer portal — www.cloudcraze.com redirects to Salesforce B2B Commerce.
 url: https://raw.githubusercontent.com/api-evangelist/cloudcraze/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://logo.clearbit.com/cloudcraze.com
 x-type: company
 x-source: vc-portfolio
+x-status: acquired
+x-acquired-by: salesforce
+x-acquired-year: '2018'
 x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- B2B Commerce
+- eCommerce
+- Salesforce
+- CRM
+- Commerce Platform
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +52,12 @@ maintainers:
 common:
 - type: Website
   url: http://www.cloudcraze.com/
+- type: Documentation
+  url: https://developer.salesforce.com/docs/atlas.en-us.b2b_commerce_dev_guide.meta/b2b_commerce_dev_guide/cloudcraze_js.htm
+- type: DomainSecurity
+  url: security/cloudcraze-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
