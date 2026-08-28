@@ -11,6 +11,17 @@ description: >-
   Salesforce Developers. CloudCraze no longer operates as an independent company
   or developer portal — www.cloudcraze.com redirects to Salesforce B2B Commerce.
 url: https://raw.githubusercontent.com/api-evangelist/cloudcraze/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
