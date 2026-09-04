@@ -33,6 +33,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'http://www.cloudcraze.com/', status: 301, note: 'declared website redirects to https://www.salesforce.com/commerce/b2b-ecommerce/?bc=DB — a different registrable domain (cloudcraze.com -> salesforce.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://logo.clearbit.com/cloudcraze.com
 x-type: company
 x-source: vc-portfolio
